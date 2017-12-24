@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .red-text{
+        color:red;
+        
+    }
+    .background{
+    background-color: FloralWhite  ;
+    font-size: 19px;
+    font-family: Monospace;
+        color:FireBrick;
+}
+    p1{
+        font-family: Lobster, Monospace;
+        color:black;
+        font-size:18;
+    }
+    p{
+        font-size: 19px;
+    }
+    
+    </style>
+    <meta charset="utf-8">
+	<title>1.HTML+CSS foundation</title>
+</head>
+<body>
+<h2 class="red-text"><b>3. Recognize the label (part ii)
+</b><h2><br>
+
+        
+<p1>
+3-1<br>
+1. Unordered list<br>
+Ul -li is a list of information that is not in sequence.<br>
+Grammar:<br>
+The &ltul&gt<br>
+&ltli&gt information &lt/li&gt<br>
+&ltli&gt information &lt/li&gt<br>
+......<br>
+&lt/ul&gt<br>
+For example:<br>
+The &ltul&gt<br>
+&ltLi&gt brilliant teenager &lt/Li&gt<br>
+&ltLi&gt beauty suddenly appears &lt/Li&gt<br>
+&ltLi&gt touches the heart rhythm &lt/Li&gt<br>
+&lt/ul&gt<br>
+The default style that ul-li displays in the web page is generally: every li comes with a dot<br>
+2. Ordered list<br>
+Grammar:<br>
+The &ltol&gt<br>
+&ltli&gt information &lt/li&gt<br>
+&ltli&gt information &lt/li&gt<br>
+......<br>
+&lt/ol&gt<br>
+For example:<br>
+Here's a list of hot spots to download:<br>
+The &ltol&gt<br>
+&ltli&gt front-end development interview method &lt/li&gt<br>
+&ltli&gt basic learning HTML &lt/li&gt<br>
+&ltli&gtJavaScript complete attack slightly &lt/li&gt<br>
+&lt/ol&gt<br>
+The default style shown in &ltol&gt on the web page is usually: each &ltli&gt always comes with a sequence number, which defaults to 1<br><br>
+3-2<br>
+&ltdiv&gt container label<br>
+In the process of making a web page, you can divide some separate logical sections into a single &ltdiv&gt tag, which is the equivalent of a container.<br>
+Grammar:<br>
+The &ltdiv&gt...&lt/div&gt<br>
+Determine the logical part:<br>
+What is the logical part?It is a set of elements that are interrelated on the page.Such as the independent columns in the web page, is a typical logical part.As shown in the figure below: a logical portion of the red border is used to use the &ltdiv&gt tag as the container<br>
+Note: &ltdiv&gt is a block-level element, meaning that the browser usually places a newline character before and after div element.<br><br>
+3-3<br>
+Create five elements of the table:<br>
+Table, tbody, tr, th, td<br>
+1, the &lttable&gt...&lt/table&gt : the whole table begins with &lttable&gt tag, &lt/table&gt tag.<br>
+2, &lttbody&gt...&lttbody&gt : when the table is very long, the table will be downloaded a little bit, but if you add &lttbody&gt tag, the table will be displayed after the full download of the table.Code in the right code editor.(the label doesn't work much)<br>
+3, &lttr&gt...&lt/tr&gt : a row of tables, so there are a few rows for the tr table.<br>
+4, &lttd&gt...&lt/td&gt : a cell in a table containing several pairs of &lttd&gt...&lt/td&gt, indicating a few columns in a row.<br>
+5, the &ltth&gt...&lt/th&gt : a cell in the head of the table, table header.<br>
+The number of columns in a table depends on the number of data cells in a row.<br>
+The table also needs to add some tags for optimization, and the title and summary can be added<br>
+<table summary= "this table records the inventory records from 2012 to 2013, including usb flash drive and headphone inventory" ><br>
+&ltCaption&gt2012 to 2013 inventory record &lt/Caption&gt<br><br>
+3-4<br>
+1. Use the &lta&gt tag and link to another page<br>
+Using the &lta&gt tag, it can be hyperlinked, which can be found everywhere in web page making, as long as there is a link to it.<br>
+Grammar:<br>
+&lta href= "target url" &gt link display text &lt/a&gt<br>
+Such as:<br>
+&lta href = "http://www.imooc.com"&gtclick here!&lt/a&gt<br>
+The example above is to click click here!Text, link to http://www.imooc.com.<br><br>
+3-5<br>
+Know the &ltimg&gt label and insert the image for the web page<br>
+In the making of the web page to make the website beautiful, must be the lack of pictures, can use the &ltimg&gt label to insert the picture.<br>
+Grammar:<br>
+&ltimg SRC = "image address" Alt = "replace text" when the download fails "title =" text "&gt<br>
+For example:<br>
+&ltimg SRC = "myimage.gif" Alt = "My Image" title = "My Image" /&gt<br>
+Explanation:<br><br>
+1. SRC: identify the position of the image;<br>
+2. Alt: specify the descriptive text of the image, and when the image is not visible (when the download is unsuccessful), you can see the text specified by the property;<br>
+3. Title: provide the description of the image when the image is visible (the text displayed when the mouse slides over the picture);<br>
+4. Images can be image files in GIF, PNG, JPEG format.<br>
+</p1>
+<br>
+<p2>To know more:</p2><br>
+<div class="background">
+<a href="">1.HTML+CSS foundation</a><br>
+<a href="">2.Recognition of labels (part 1)</a><br>
+<a href="">3.Rcognition of labels (part 2)</a><br>
+<a href="">4.Form labels (interacting with users)</a><br>
+<a href="">6.CSS selectors </a><br>
+<a href="">7.Inheritance, cascading, and particularity of CSS. </a><br>
+<a href="">8.CSS formatting </a><br>
+<a href="">9.CSS box model </a><br>
+<a href="">10.CSS layout model </a><br>
+</div>
+</body>
+</html>

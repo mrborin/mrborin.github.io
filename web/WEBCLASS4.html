@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .red-text{
+        color:red;
+        
+    }
+    .background{
+    background-color: FloralWhite  ;
+    font-size: 19px;
+    font-family: Monospace;
+        color:FireBrick;
+}
+    p1{
+        font-family: Lobster, Monospace;
+        color:black;
+        font-size:18;
+    }
+    p{
+        font-size: 19px;
+    }
+    
+    </style>
+    <meta charset="utf-8">
+	<title>1.HTML+CSS foundation</title>
+</head>
+<body>
+<h2 class="red-text"><b>4. Form labels (interacting with users)
+</b><h2><br>
+
+        
+<p1>
+<br>
+
+4-1<br>
+The form is the data that can be entered by the viewer to the server, so that the server-side program can handle the data that the form is passing through.<br>
+Grammar:<br>
+&ltform method= "transmission mode" action= "server file" ><br>
+Explanation:<br>
+1.&ltform> : &ltform> tag is presented in pairs, starting with &ltform >, ending with &lt/form >.<br>
+Action: the data entered by the viewer is sent to the site, such as a PHP page (save. PHP).<br>
+3. Method: method of data transmission (get/post).<br><br>
+4-2<br>
+The &ltinput > input box<br>
+Text input box, password entry box<br>
+Text input boxes are used when users type letters, Numbers, etc. into the form.The text box <br>can also be converted into a password entry box.<br>
+Grammar:<br>
+The &ltform ><br>
+"Input type="text/password "name =" name "value ="text "/ ><br>
+&lt/ form ><br>
+1, type:<br>
+When type= "text", the input box is the text input box;<br>
+When type= "password", the input box is the password input box.<br>
+2. Name: name the text box for the background program ASP and PHP.<br>
+3. Value: set default values for text input boxes.(usually prompt)<br><br>
+4-3<br>
+Text fields that support multi-line text input<br>
+Text input fields need to be used when a user needs to enter a large text in a form.<br>
+Grammar:<br>
+&lttextarea rows= "row number" cols= "column number" > text &lt/textarea><br>
+1. &lttextarea> tag is presented in pairs, beginning with &lttextarea >, ending with &lt/textarea >.<br>
+2. Cols: the number of columns in a multi-row input field.<br>
+3. Rows: the number of rows in a multiline input field.<br><br>
+4-4<br>
+Single box, check box<br>
+Grammar:<br>
+&lt"Input type="radio/checkbox "value =" value "name =" name "checked ="checked"/><br>
+1, type:<br>
+When type= "radio", the control is a single box<br>
+When type= "checkbox", the control is the checkbox<br>
+2. Value: value to submit data to the server (used by background program PHP)<br>
+3. Name: name the control for the background program ASP and PHP<br><br>
+4. Checked: when checked= checked, this option is selected by default<br>
+Note: in the same group of radio buttons, the name value must be consistent, so that the single button of the same group can play the single option.<br><br>
+4 - 5<br>
+Drop-down list box, save space<br>
+Drop-down lists are also used in web pages, which can effectively save web pages.You can choose both.<br>
+Syntax: &ltoption value= "submit value" > option &lt/option><br>
+The submit value is the value submitted to the server, and the option is the value displayed.<br>
+&ltform action = "save. PHP" method = "post" ><br>
+0label > interest: &lt/ label ><br>
+The 0select ><br>
+"Option value=" reading "> reading &lt/option><br>
+&ltoption value= "travel" selected="selected"> travel &lt/option><br>
+&ltoption value= "motion" > motion &lt/option><br>
+&ltoption value= "shopping" > shopping &lt/option><br>
+&lt/ select ><br>
+&lt/ form ><br><br>
+4 - 6<br>
+Use the drop-down list box for multiple choices<br>
+The drop-down list can also be multi-selected, setting multiple="multiple" attributes in the &ltselect> label,
+You can select multiple options by pressing the Ctrl key at the same time to select multiple options.<br>
+The following code:<br>
+&ltform action = "save. PHP" method = "post" ><br>
+&ltlabel > interest: &lt/ label ><br>
+The < select multiple = "multiple" ><br>
+&lt"Option value=" reading "> reading &lt/option><br>
+&lt"Option value=" travel "> travel &lt/option><br>
+&ltoption value= "motion" > motion &lt/option><br>
+&ltoption value= "shopping" > shopping &lt/option><br>
+&lt/ select ><br>
+&lt/ form ><br><br>
+4 - 7<br>
+There are two buttons to use in the form: submit button, reset.<br>
+1. Submit button: when the user needs to submit the form information to the server, the submit button needs to be used.<br>
+Grammar:<br>
+&ltinput type="submit" value= "submit" ><br>
+Type: only when the type value is set to submit<br>
+Value: the text displayed on the button<br>
+2. Reset the button and reset the form information<br>
+When the user needs to reset the form information to the initial state, such as when the user enters "user name", it is found that the handwriting is wrong, and the reset button can be used to restore the input box to the initial state.Just set the type to "reset".<br>
+Grammar:<br>
+&ltinput type="reset" value= "reset" ><br>
+Type: the button only has a reset when the type value is reset to reset<br>
+Value: the text displayed on the button<br>
+</p1>
+<br>
+<p2>To know more:</p2><br>
+<div class="background">
+<a href="">1.HTML+CSS foundation</a><br>
+<a href="">2.Recognition of labels (part 1)</a><br>
+<a href="">3.Rcognition of labels (part 2)</a><br>
+<a href="">4.Form labels (interacting with users)</a><br>
+<a href="">6.CSS selectors </a><br>
+<a href="">7.Inheritance, cascading, and particularity of CSS. </a><br>
+<a href="">8.CSS formatting </a><br>
+<a href="">9.CSS box model </a><br>
+<a href="">10.CSS layout model </a><br>
+</div>
+</body>
+</html>

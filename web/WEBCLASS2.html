@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .red-text{
+        color:red;
+        
+    }
+    .background{
+    background-color: FloralWhite  ;
+    font-size: 19px;
+    font-family: Monospace;
+        color:FireBrick;
+}
+    p1{
+        font-family: Lobster, Monospace;
+        color:black;
+        font-size:18;
+    }
+    p{
+        font-size: 19px;
+    }
+    
+    </style>
+    <meta charset="utf-8">
+	<title>1.HTML+CSS foundation</title>
+</head>
+<body>
+<h2 class="red-text">1.<b>2.Recognition of labels (part 1)</b><h2><br>
+
+        
+<p1>
+2-1<br>
+If you want to display an article on a web page, you need to &ltP&gt
+tag, and put the paragraph in the&ltP&gttag.<br>
+Grammar:<br>
+&ltP&gttext&lt/P&gt<br><br>
+2-2<br>
+tag to make the title of the article.<br>
+There are 6 title tags, h1, h2, h3, h4, h5, and h6 respectively, respectively, the title of the first class, the second title, the three levels, the four headings, the five headings, and the six headings. And it's diminishing in importance. H1 > is the highest class.<br>
+Grammar:<br>
+title text (x is 1-6)<br>
+The title of the article has already been said, and you can use the title tag, and the titles of each column on the page can be used<br><br>
+2-3<br>
+Now, if you want to highlight a few words in a paragraph, you can use &ltem&gt or &ltstrong&gt tags.<br>
+But there is a difference in the tone of emphasis: "em > indicates that" &ltstrong&gt "means stronger emphasis.And in the browser, &ltem&gt defaults to italics, &ltstrong&gt in bold.At present, domestic front-end programmers prefer using &ltstrong&gt to highlight the two labels<br><br>
+2-4<br>
+&ltem&gt, &ltstrong&gt, &ltspan&gt :<br>
+1. &ltem&gt and &ltstrong&gt tags are used to emphasize key words in a paragraph, and their semantics are emphasized.<br>
+2. &ltspan&gt tag is unsemantic, its function is to set up a separate style, circle a paragraph, and then use CSS to set the style.<br><br>
+2-5<br>
+Q label, short passage reference<br>
+For example, if you want to quote a poem from a writer in your web page, it will make your writing more colorful, so the &ltq&gt tag is what you need.<br>
+Grammar:<br>
+<q> references text </q><br>
+1. Note that the text to be referenced is not in double quotation marks, and the browser will automatically add double quotation marks to the q tag.<br>
+2, pay attention to here with the real key &ltq&gt tag is not its default style double quotation marks (if so we might as well on the keyboard input double quotes to go), but its semantic: refer to what others say Blockquote tag, long text reference The role of &ltblockquote&gt is also to quote someone else's text.But it's a reference to long text
+The &ltq&gt tag is a reference to a short text, such as using a &ltq&gt tag.<br>
+Grammar:<br>
+&ltblockquote&gt<br>
+The browser's parsing of the &ltblockquote&gt label is indented<br><br>
+2-6<br>
+Line change label &ltbr&gt<br>
+The &ltbr&gt tag is equivalent to the return of a word document.<br>
+Dividing line label &lthr&gt<br>
+The &lthr/&gt label is also an empty label, as is the &ltbr&gt tag, so there is only one start tag and no end tag.<br>
+&lthr/&gt tag in the browser default style line is relatively coarse, color to gray, there may be some people think that this style is not beautiful, no matter, these external style after we later learn CSS stylesheet can modify on it.<br><br>
+2-7<br>
+HTML special character<br>
+Space: & have spent(;A semicolon is essential.<br><br>
+2-8 <br>
+Address label to add address information for web pages<br>
+Grammar:<br>
+<address> address information </address><br>
+Such as:<br>
+&ltAddress&gt, no.10, dewai street, xicheng district, Beijing<br>
+The style shown in the browser is italic, and if you don't like italics, you can, of course, use CSS styles to modify the default style of the address> label<br><br>
+2-9<br>
+In the introduction to language technology website, will be in a web page display some computer programming code, when the code is one line of code, you can use the &ltcode&gt tag, such as the following examples:<br>
+The < code > var I = I + 300;< / code ><br>
+Grammar:<br>
+<code> code language </code><br>
+Note: if you want to insert multiple lines of code, you cannot use the <code> tag, and if you have multiple lines of code, you can use the &ltpre&gt tag.<br>
+&ltpre&gt tag: pre-formatted text.The text enclosed in the pre element usually preserves Spaces and newlines.If you use the previous method, enter the &ltbr&gt signature, and the space needs to input & NBSP;.<br>
+Note: the &ltpre&gt tag is not just to show the source code of computer use, you need in a web page for the display format you can use it, just a common application of &ltpre&gt tag is used to display computer source code.<br>
+</p1>
+<br>
+<p2>To know more:</p2><br>
+<div class="background">
+<a href="">1.HTML+CSS foundation</a><br>
+<a href="">2.Recognition of labels (part 1)</a><br>
+<a href="">3.Rcognition of labels (part 2)</a><br>
+<a href="">4.Form labels (interacting with users)</a><br>
+<a href="">6.CSS selectors </a><br>
+<a href="">7.Inheritance, cascading, and particularity of CSS. </a><br>
+<a href="">8.CSS formatting </a><br>
+<a href="">9.CSS box model </a><br>
+<a href="">10.CSS layout model </a><br>
+</div>
+</body>
+</html>
